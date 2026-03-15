@@ -3,8 +3,8 @@
     "default": {
       "theme_color": {
         "primary": "orange",
-        "blue": "#89C1FF",
-        "body": "#89C1FF",
+        "blue": "#4895e9",
+        "body": "#4895e9",
         "border": "#eaeaea",
         "light": "#f6f6f6",
         "dark": "#f7f3f0",

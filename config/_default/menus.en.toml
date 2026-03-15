@@ -21,6 +21,11 @@ name = "Yhteistyökumppanit"
 url = "/#kumppanit"
 weight = 4
 
+[[main]]
+name = "Meistä"
+url = "/meistä"
+weight = 5
+
 #[[main]]
 #name = "Yhteystiedot"
 #url = "/yhteystiedot"
