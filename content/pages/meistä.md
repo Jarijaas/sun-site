@@ -5,7 +5,7 @@ description: "VIBEs – all vibes ok"
 draft: false
 ---
 
-VIBEsin takana häärää innokas nuorkauppakamarilaisten vapaaehtoisten joukko 💛 Meitä yhdistää halu tehdä yhdessä konkreettisia tekoja parantaakseemme ympäröivää yhteiskuntaa. Olemme eri alojen ammattilaisia, jotka haluavat samalla kehittää omaa osaamistaan uusilla osa-alueilla! Kurkkaa alta esittelyvideomme
+VIBEsin takana häärää innokas nuorkauppakamarilaisten vapaaehtoisten joukko 💛 Meitä yhdistää halu tehdä yhdessä konkreettisia tekoja parantaakseemme ympäröivää yhteiskuntaa. Olemme eri alojen ammattilaisia, jotka haluavat samalla kehittää omaa osaamistaan uusilla osa-alueilla! Kurkkaa alta esittelyvideomme.
 
 {{< youtube MabyqoLOTxM >}}
 
