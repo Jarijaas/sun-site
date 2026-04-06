@@ -75,6 +75,8 @@ Laita siis firman merchandise päälle, banderolli valmiiksi ja tule kanssamme m
 
 Kumppanina olet osa vastuullisten oululaisten yrittäjien yhteisöä, joka rakentaa kaupungin elinvoimaa, positiivista näkyvyyttä ja tulevaisuuden osaajapohjaa.
 
+{{< image src="images/vibes-partners.png" position="center" command="fill" option="q100" class="img-fluid" >}}
+
 Lisäksi VIBEs tarjoaa yrityksellenne:
 
 *   Konkreettisen tavan tukea nuorten mielenterveyttä, osallisuutta ja syrjäytymisen ehkäisyä
@@ -105,5 +107,3 @@ Pilottivaiheessa pääset vaikuttamaan konseptin luomiseen - olemmekin erittäin
 [vibes@jciouluntervaporvarit.fi](mailto:vibes@jciouluntervaporvarit.fi)
 
 instagram: all.vibes.ok
-
-![](/images/vibes-partners.png)
