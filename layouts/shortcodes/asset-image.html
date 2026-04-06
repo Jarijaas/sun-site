@@ -1,0 +1,6 @@
+{{ $src := .Get "src" }}
+{{ $style := .Get "style" | default "" }}
+{{ $img := resources.GetMatch $src }}
+{{ with $img }}
+<img src="{{ .RelPermalink }}"{{ if $style }} style="{{ $style }}"{{ end }} />
+{{ end }}
