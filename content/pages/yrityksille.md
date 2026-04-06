@@ -9,9 +9,7 @@ Meid채n nuoremme tarvitsevat mielenterveyden tukemisen oheen ennaltaehk채isev채�
 
 Me Oulun Tervaporvarien Nuorkauppakamarissa tarjoamme teille helpon tavan vahvistaa br채ndi채nne, tavoittaa uusia asiakkaita ja samalla tukea oululaisten nuorten hyvinvointia.
 
-
-{{< image src="images/vibes-partners.png" position="center" command="fill" option="q100" class="img-fluid" >}}
-
+![](/images/vibes-partners.png)
 
 <details>
 <summary><strong>Mik채 on VIBEs?</strong></summary>
