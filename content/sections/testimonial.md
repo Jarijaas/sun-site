@@ -21,6 +21,11 @@ testimonials:
     avatar: "/images/partners/rotary.png"
     content: "Yhteistyöasiaa"
     link: "https://www.instagram.com/oulucityrotarykubi/"
+  - name: "Joogastudio Tyyni"
+    greetings: "Terkuin ..."
+    avatar: "/images/partners/tyyni.webp"
+    content: "Yhteistyöasiaa"
+    link: "https://www.joogastudiotyyni.fi/"
 
   #- name: "Marvin McKinney"
   #  greetings: "Terkuin ..."
