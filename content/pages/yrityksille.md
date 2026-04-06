@@ -105,3 +105,5 @@ Pilottivaiheessa pääset vaikuttamaan konseptin luomiseen - olemmekin erittäin
 [vibes@jciouluntervaporvarit.fi](mailto:vibes@jciouluntervaporvarit.fi)
 
 instagram: all.vibes.ok
+
+![](../../assets/images/vibes-partners.png)
