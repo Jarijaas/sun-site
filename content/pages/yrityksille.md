@@ -5,64 +5,103 @@ description: "VIBEs – all vibes ok"
 draft: false
 ---
 
-Suomen nuoret tarvitsevat terveydenhuollollisen mielenterveyden tukemisen oheen ennaltaehkäisevää ja hyvinvointia tukevaa toimintaa. **VIBEs-projekti** tarjoaa lisää hyvinvointia yritysyhteistyön keinoin: tekemistä ja elämyksiä, sekä niiden kautta syntyviä positiivisia, toivoa herätteleviä tuntemuksia ja kiinnittymispintoja ympäröivään yhteiskuntaan.
+Meidän nuoremme tarvitsevat mielenterveyden tukemisen oheen ennaltaehkäisevää ja hyvinvointia tukevaa toimintaa. Innovatiivinen VIBEs-projekti tarjoaa lisää hyvinvointia yritysyhteistyön keinoin: tekemistä ja elämyksiä, sekä niiden kautta syntyviä positiivisia, toivoa herätteleviä tuntemuksia ja kiinnittymispintoja ympäröivään yhteiskuntaan.
 
-**Mukaan tarvitaan yrityksiä ja organisaatioita, jotka haluavat toimia vastuullisesti ja olla mukana tukemassa nuorten hyvinvointia.**
+Me Oulun Tervaporvarien Nuorkauppakamarissa tarjoamme teille helpon tavan vahvistaa brändiänne, tavoittaa uusia asiakkaita ja samalla tukea oululaisten nuorten hyvinvointia.
 
-**Mikä on VIBEs?**
+<details>
+<summary><strong>Mikä on VIBEs?</strong></summary>
 
 VIBEs on täysin vapaaehtoisvoimin toteutettu Oulun Tervaporvarien Nuorkauppakamarin projekti, jossa paikalliset yritykset tarjoavat palveluitaan maksutta nivelvaiheen nuorille (9. luokkalaiset ja toisen asteen 1. vuosikurssilaiset). VIBEs konsepti on palkittu vuonna 2025 Pohjois-Pohjanmaan liiton vuoden järjestöteko palkinnolla.
 
 Toteutuksessa nuori saa koulusta henkilökohtaisen koodin, jonka avulla hän voi kirjautua sähköiselle alustalle ja valita itselleen sopivia palveluita kulloinkin sopivaan fiilikseen ja tarpeeseen. Palvelu toteutetaan nettisivulla allvibes.fi
 
-**Ketä etsimme mukaan?**
+</details>
 
-Etsimme yrityksiä kolmelta osa-alueelta:
+<details>
+<summary><strong>Ketä etsimme mukaan?</strong></summary>
 
-*   **Liikunta & aktiivisuus** – harrastukset, erilaiset treenimahdollisuudet, ryhmäliikunta, joukkuelajit ja luontoretket
+Etsimme syyslukukaudelle 2026 mukaan rajattua määrää palveluntarjoajia kahdesta kategoriasta:
+
 *   **Kulttuuri & luovuus** – taide-elämykset, konsertit, teatteri, elokuvat, näyttelyt, työpajat, soiton opetus
 *   **Hyvinvointi & palautuminen** – hemmottelu, rentoutuminen, rentoutushoidot, eläimiin liittyvä toiminta, hieronta, meikki/kampausopetus
-    
 
-Yritys voi itse määritellä, mitä palveluita tarjoaa. Voitte siis itse määritellä minkälaisia toiveita teillä olisi tarjoamienne palveluiden suhteen - ne voivat olla esimerkiksi tiettyihin kellonaikoihin sidottuja. Nuoret ovat toivoneet mahdollisuutta ottaa kaveri mukaan palveluiden käyttöön.
+**Palveluntarjoajana saat:**
 
-**Muita keinoja olla mukana tekemässä hyvää!**
+*   näkyvyyttä VIBEsin kanavissa, verkkosivuilla, tapahtumissa ja viestinnässä
+*   Ammattimaisesti tuotettuja some- ja PR-sisältöjä markkinointiinne (30 sekunnin esittelyvideo ja kuvakaruselli). Paketin arvo 500e
+*   Kumppanuus vahvistaa brändiänne ja tuo näkyviin arvomaailmaanne. Jaamme markkinointimateriaalin myös omassa somessamme noin 2000 seuraajalle!
+*   "yrityksemme tukee nuorten mielenterveystyötä" -tarran ja vektorimuotoisen logon omaan viestintäänne
+*   logonne ja esittelynne nettisivuillemme allvibes.fi
+*   tunnettuutta nuorten ja perheiden keskuudessa
+*   mahdollisuuden rakentaa pitkäaikaisia asiakkuuksia jo varhaisessa vaiheessa
+*   helpon ja aidosti vaikuttavan tavan toteuttaa yhteiskuntavastuuta
+*   lisää liikevaihtoa
+*   Pääset mukaan torstaina 13.8.26 Rotuaarin lavalla järjestettävään hyvinvointikävelyyn, jossa myös media on paikalla!
 
-*   Voit lahjoittaa markkinointi- tai tapahtumamateriaaleja (tarroja, heijastimia tms)
-*   Tukea toimintaa taloudellisesti kumppanuuspakettiemme kautta
-    
+Yhteistyö on yritykselle vaivatonta. Allekirjoitamme sopimuksen, jossa sovimme että tarjoatte 1500e edestä palveluitanne ja me ostamme tämän summan yli menevät nuorten käyttämät palvelut. Me huolehdimme teille selkeän ohjeistuksen VIBEs passin toiminnasta ja teemme nuorille ohjevideon siitä, miten palveluanne käytetään.
 
-**Mitä yritys saa?**
+</details>
 
-Osallistumalla VIBEs-projektiin yrityksesi:
+<details>
+<summary><strong>Muita keinoja olla tekemässä hyvää!</strong></summary>
 
-*   Tukee nuorten mielenterveyttä helposti matalalla kynnyksellä
-*   Toteuttaa sosiaalista vastuuta ja vaikuttaa positiivisesti yhteiskunnallisesti
-*   Saa näkyvyyttä Oulun Tervaporvarien Nuorkauppakamarin somekanavissa, projektin verkkosivuilla ja somessa, sekä mahdollisesti lehdistössä
-*   Voi hyödyntää osallistumistaan myös omissa markkinointikanavissaan
-*   Pääsee mukaan Oulun Tervaporvarien Nuorkauppakamarin yhteistyökumppaniverkostoon ja verkostoitumistilaisuuksiin
-*   Saa mahdollisia tulevaisuuden asiakkaita nuorista ja heidän perheistään
-    
+Voit tukea tapahtumaa kahdella tavalla:
 
-**Käytännön toteutus**
+*   Lahjoittamalla markkinointi- tai tapahtumamateriaaleja (tarroja, heijastimia tms.)
+*   Tukemalla toimintaa taloudellisesti osallistumalla yritysten yhteiseen kävelytapahtumaan kumppanina
 
-*   Yritys tekee yhteistyösopimuksen yhteyshenkilömme kanssa.
-*   Sovitaan, mitä palveluita yritys tarjoaa nuorille ja millä ehdoin. 
-*   Palvelut lisätään VIBEs-alustalle, josta nuoret voivat niitä hyödyntää kuuden kuukauden aikajaksolla syksystä 2026 lähtien.
-    
+Tavoitteenamme on kerätä 15 000 euroa toiminnan mahdollistamiseen!
 
-**Milloin?**
+</details>
 
-*   **Syksy 2026** – VIBEs käynnistyy pilotilla, mukana yli 200 nuorta kahdesta oppilaitoksesta
-*   Tavoitteena on luoda toimiva konsepti, joka voi kasvaa alueittain jopa valtakunnalliseksi – aivan kuten nuorkauppakamarin alulle laittama Joulupuu-keräys tai TET-harjoittelu. Kiinnostusta kansalliseen laajentamiseen onkin jo herännyt!
-    
+<details>
+<summary><strong>INFO TAPAHTUMASTA</strong></summary>
 
-**Niin isot kuin pienetkin panostukset ohjautuvat täysimääräisesti nuorten hyvinvoinnin tukemiseen ja vievät toimintaa eteenpäin. Liity mukaan luomaan nuorille toivoa ja uusia kokemuksia!**
+Torstaina 13.8.2026 Rotuaarin lavalla tapahtuu Korttelihaipakan yhteydessä, kun lavalle nousee nimekkäitä puhujia ja yritykset kokoontuvat yhdessä näyttämään tukensa nuorten mielenterveystyölle. Tilaisuus huipentuu lyhyeen kävelyyn keskustan alueella!
+
+**Mukaan pääset**
+
+*   Jo 100 euron lahjoituksella
+*   Kumppanuussopimus solmitaan sähköpostitse
+*   Saat näkyvyyttä tapahtumassa, jossa media on paikalla uutisoimassa, ja kohtaat muita paikallisia yrityksiä.
+
+Laita siis firman merchandise päälle, banderolli valmiiksi ja tule kanssamme marssimaan nuorten hyvinvoinnin puolesta – All VIBEs ok!
+
+</details>
+
+<details>
+<summary><strong>Mitä muuta rahakumppani saa?</strong></summary>
+
+Kumppanina olet osa vastuullisten oululaisten yrittäjien yhteisöä, joka rakentaa kaupungin elinvoimaa, positiivista näkyvyyttä ja tulevaisuuden osaajapohjaa.
+
+Lisäksi VIBEs tarjoaa yrityksellenne:
+
+*   Konkreettisen tavan tukea nuorten mielenterveyttä, osallisuutta ja syrjäytymisen ehkäisyä
+*   Mahdollisuuden vahvistaa ESG- ja vastuullisuusraportointia (erityisesti sosiaalinen vastuu)
+*   Verovähennyskelpoisen lahjoituksen
+*   "Yrityksemme tukee nuorten mielenterveystyötä" -tarran ja vektorimuotoisen logon omaan viestintään
+*   Logon tapahtumaan ja nettisivuille (allvibes.fi)
+*   Näkyvyyttä tapahtumissa, joihin osallistumme
+*   Brändin vahvistumista vastuullisena ja paikallisena toimijana
+
+</details>
+
+<details>
+<summary><strong>Milloin?</strong></summary>
+
+Syyslukukausi 2026 – VIBEs käynnistyy pilotilla, mukana noin 400 nuorta kolmesta oppilaitoksesta
+
+Tavoitteena on luoda toimiva konsepti, joka voi kasvaa alueittain jopa valtakunnalliseksi – aivan kuten nuorkauppakamarin alulle laittama TET-harjoittelu. Kiinnostusta kansalliseen laajentamiseen onkin jo herännyt!
+
+Pilottivaiheessa pääset vaikuttamaan konseptin luomiseen - olemmekin erittäin kiinnostuneita näkemyksistänne!
+
+</details>
+
+**Niin isot kuin pienetkin panostukset ohjautuvat nuorten hyvinvoinnin tukemiseen ja vievät toimintaa eteenpäin. Liity mukaan luomaan nuorille toivoa ja uusia kokemuksia!**
 
 👉 Ota yhteyttä
 
 [vibes@jciouluntervaporvarit.fi](mailto:vibes@jciouluntervaporvarit.fi)
 
 instagram: all.vibes.ok
-
-Oulun Tervaporvarien Nuorkauppakamarin sivut: https://jciouluntervaporvarit.fi/
