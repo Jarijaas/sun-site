@@ -58,17 +58,40 @@ Tavoitteenamme on kerätä 15 000 euroa toiminnan mahdollistamiseen!
 </details>
 
 <details>
-<summary><strong>INFO TAPAHTUMASTA</strong></summary>
+<summary><strong>Läsnä with VIBEs- kulkue ja lanseeraustilaisuus (Oulu)</strong></summary>
 
-Torstaina 13.8.2026 Rotuaarin lavalla tapahtuu Korttelihaipakan yhteydessä, kun lavalle nousee nimekkäitä puhujia ja yritykset kokoontuvat yhdessä näyttämään tukensa nuorten mielenterveystyölle. Tilaisuus huipentuu lyhyeen kävelyyn keskustan alueella!
+📍 Rotuaari, Oulu 
 
-**Mukaan pääset**
+🕒 Torstai 13.8.2026 klo 15–17 (Korttelihaipakan yhteydessä)
 
-*   Jo 100 euron lahjoituksella
-*   Kumppanuussopimus solmitaan sähköpostitse
-*   Saat näkyvyyttä tapahtumassa, jossa media on paikalla uutisoimassa, ja kohtaat muita paikallisia yrityksiä.
+Tapahtuma on suunnattu yrityksille, palveluntarjoajille ja järjestöille
+👉 sinulle, joka haluat olla mukana rakentamassa konkreettista ratkaisua nuorten hyvinvointiin
 
-Laita siis firman merchandise päälle, banderolli valmiiksi ja tule kanssamme marssimaan nuorten hyvinvoinnin puolesta – All VIBEs ok!
+Miksi osallistua?
+Saat näkyvyyttä osana vaikuttavaa kokonaisuutta, brändisi vahvistuu vastuullisena toimijana, verkostoidut muiden toimijoiden kanssa, pääset mukaan VIBEs-yhteistyöhön, olet mukana mahdollistamassa matalan kynnyksen palveluita nuorille. Osoitamme yhdessä läsnäolollamme että me todellakin välitämme!
+
+Iltapäivän ohjelma:
+VIBES-projektin ja -passin lanseeraus, yhteistyökumppanien esittelyjä ja haastatteluja
+-Läsnä with VIBES-kulkue keskustassa
+-Toiminnallisia aktiviteetteja, verkostoitumista yritysten ja toimijoiden kanssa
+
+Yhteistyössä Kaleva Media, joten laittakaa firman logoa ylle näkyvyyden maksimoimiseksi 😉
+
+Tapahtuman jälkeen päivä jatkuu halutessanne Oulun Tervaporvarien Nuorkauppakamarin erillisessä kumppanuus tilaisuudessa.
+
+Tapahtumalla keräämme varoja VIBES-toiminnan mahdollistamiseen.
+
+💛 Kumppaniksi pääsee mukaan alkaen 100 €
+
+🩷 Tavoitteena kerätä tapahtumalla 14 000 € nuorten hyväksi
+
+Otetaan yhdessä ensimmäinen merkityksellinen askel VIBEs-kulkueessa ja jatketaan rakentamalla parempaa arkea oululaisille nuorille 🤩
+
+Ilmoittaudu mukaan, niin otamme sinuun yhteyttä: https://forms.gle/qj1QhWaCxubS5oJb7
+
+Näytä myös LinkedInissä, että olet mukana:  https://www.linkedin.com/events/l-sn-withvibes-kulkuejalanseera7457146719550504960
+
+Nähhäänhän elokuussa?
 
 </details>
 
