@@ -61,6 +61,11 @@ testimonials:
     avatar: "/images/partners/rela-logo-sin.svg"
     content: "Yhteistyöasiaa"
     link: "https://www.relahierojat.fi/"
+  - name: "Action Oulu"
+    greetings: "Terkuin ..."
+    avatar: "/images/partners/actionoulu.png"
+    content: "Yhteistyöasiaa"
+    link: "https://www.ouka.fi/action"
 
 
   #- name: "Marvin McKinney"
