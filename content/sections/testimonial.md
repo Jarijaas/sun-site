@@ -63,9 +63,14 @@ testimonials:
     link: "https://www.relahierojat.fi/"
   - name: "Action Oulu"
     greetings: "Terkuin ..."
-    avatar: "/images/partners/actionoulu.png"
+    avatar: "/images/partners/actionoulu.jpg"
     content: "Yhteistyöasiaa"
     link: "https://www.ouka.fi/action"
+  - name: "Tekant"
+    greetings: "Terkuin ..."
+    avatar: "/images/partners/tekant.jpg"
+    content: "Yhteistyöasiaa"
+    link: "https://tekant.fi/"
 
 
   #- name: "Marvin McKinney"
