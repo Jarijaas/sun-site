@@ -1,34 +1,31 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
 favicon = "images/favicon/favicon-96x96.png"
-# logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/logo.png"
-logo_darkmode = "images/logo.png"
-# use `px` or `x` with logo_width, example: "100px".
-# Note: logo_width is not work with .svg file
+# Custom text-based SUN Kasvutarina logo is rendered by layouts/partials/logo.html.
+# These keys are left for the images module but are not used.
+logo = ""
+logo_darkmode = ""
 logo_width = "80px"
 logo_height = "80px"
-# if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
-# logo text will only show when logo is missing.
-logo_text = "JCI"
-logo_url = "https://jciouluntervaporvarit.fi/"
+logo_text = "SUN"
+logo_url = "/"
 # navbar fixed to top
-navbar_fixed = false
+navbar_fixed = true
 # theme-mode
 theme_switcher = false
 theme_default = "light" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
-contact_form_action = "https://airform.io/vibes@jciouluntervaporvarit.fi" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "https://airform.io/events@jciouluntervaporvarit.fi" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "G-RCMJJEFH00" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "vibes@jciouluntervaporvarit.fi<br/>© 2025 JCI Oulun tervaporvarien nuorkauppakamari"
+copyright = "events@jciouluntervaporvarit.fi<br/>© 2026 JCI Oulun Tervaporvarit, Terwasenaatti & Revontuliryhmä ry."
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -63,10 +60,10 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["JCI", "Oulun Tervaporvarit", "Oulu", "Kempele", "Nuoret", "Vibes"]
-description = "ALL VIBES OK"
-author = "Oulun Tervaporvarit"
-image = "images/pink-smile.png"
+keywords = ["SUN", "Kasvutarina", "Oulu", "Biitsiareena", "Tapahtuma", "JCI", "Tervaporvarit", "Terwasenaatti", "Revontuliryhmä"]
+description = "SUN Kasvutarina – syksyn aurinkoisin tapahtuma 24.9.2026 Biitsiareenalla, Oulussa."
+author = "JCI Oulun Tervaporvarit, Terwasenaatti & Revontuliryhmä ry."
+image = "images/sun-tarra.png"
 
 
 # site verifications

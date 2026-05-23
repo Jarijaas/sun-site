@@ -1,5 +1,205 @@
-/* Add your own custom styles here */
+/* SUN Kasvutarina – brand styles */
 
-.test {
-  background-color: red;
+/* Caveat Brush is only used inside the logo; explicitly request it here.
+   Alfa Slab One and Nunito are pulled in via theme/style.html based on data/theme.json. */
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+/* Brand palette as CSS variables for convenience. */
+:root {
+  --sun-bg: #ebac00;          /* page background */
+  --sun-content: #f7e36a;     /* content area background */
+  --sun-accent: #00aaab;      /* highlights and buttons */
+  --sun-text: #f85001;        /* primary text content (Rustic Printed) */
+  --sun-text-bg: #fffce9;     /* background behind text blocks (Solero) */
+  --sun-logo-sun: #b76e22;    /* SUN wordmark color */
+}
+
+/* The theme's body class applies bg-body. Re-assert here so the
+   background stays the brand orange even on long pages. */
+body {
+  background-color: var(--sun-bg);
+  color: var(--sun-text);
+}
+
+/* Section helpers used by the homepage layout */
+.sun-section {
+  padding: 4rem 0;
+  scroll-margin-top: 6rem;
+}
+
+.sun-section--alt {
+  background-color: var(--sun-content);
+}
+
+.sun-card {
+  background-color: var(--sun-text-bg);
+  color: var(--sun-text);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.sun-section h1,
+.sun-section h2,
+.sun-section h3,
+.sun-section h4 {
+  color: var(--sun-text);
+}
+
+.sun-section a:not(.btn) {
+  color: var(--sun-accent);
+  text-decoration: underline;
+}
+
+/* ----- Header / nav ----- */
+.header {
+  background-color: var(--sun-bg);
+}
+
+.navbar-brand {
+  text-decoration: none !important;
+}
+
+.nav-link {
+  color: var(--sun-text) !important;
+  font-weight: 700;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--sun-accent) !important;
+}
+
+/* ----- Logo (SUN + kasvutarina) ----- */
+.sun-logo {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.sun-logo__sun {
+  font-family: "Alfa Slab One", serif;
+  font-size: 2.4rem;
+  color: var(--sun-logo-sun);
+  letter-spacing: 0.05em;
+  /* Thick "Solero" shadow per brand guide */
+  text-shadow:
+    -2px -2px 0 var(--sun-text-bg),
+     2px -2px 0 var(--sun-text-bg),
+    -2px  2px 0 var(--sun-text-bg),
+     2px  2px 0 var(--sun-text-bg),
+     0    4px 6px rgba(0, 0, 0, 0.18);
+}
+
+.sun-logo__kasvutarina {
+  font-family: "Caveat Brush", "Permanent Marker", cursive;
+  font-size: 1.2rem;
+  color: var(--sun-text);
+  margin-top: -0.15em;
+  transform: rotate(-3deg);
+}
+
+/* Hero version: bigger, centered */
+.sun-hero-logo .sun-logo__sun {
+  font-size: clamp(4rem, 12vw, 8rem);
+  text-shadow:
+    -4px -4px 0 var(--sun-text-bg),
+     4px -4px 0 var(--sun-text-bg),
+    -4px  4px 0 var(--sun-text-bg),
+     4px  4px 0 var(--sun-text-bg),
+     0    8px 12px rgba(0, 0, 0, 0.22);
+}
+
+.sun-hero-logo .sun-logo__kasvutarina {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  margin-top: -0.1em;
+}
+
+.sun-hero-tagline {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sun-text);
+  margin-bottom: 0.5rem;
+}
+
+/* ----- Buttons ----- */
+.btn-primary,
+.banner-button {
+  background-color: var(--sun-accent) !important;
+  color: var(--sun-text-bg) !important;
+  border-color: var(--sun-accent) !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  display: inline-block;
+}
+
+.btn-primary:hover,
+.banner-button:hover {
+  filter: brightness(110%);
+}
+
+/* ----- Footer ----- */
+.footer {
+  background-color: var(--sun-text-bg) !important;
+  color: var(--sun-text) !important;
+}
+
+.footer a {
+  color: var(--sun-accent) !important;
+  font-weight: 700;
+}
+
+/* ----- Partner / speaker cards (placeholders) ----- */
+.sun-partner-grid,
+.sun-speaker-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.sun-partner-grid {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  align-items: center;
+}
+
+.sun-speaker-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.sun-speaker-card {
+  background-color: var(--sun-text-bg);
+  color: var(--sun-text);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sun-speaker-card__placeholder {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: var(--sun-content);
+  margin: 0 auto 1rem;
+}
+
+/* ----- Brand poster images (used in Info / Yhteystiedot) ----- */
+.sun-poster {
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+.sun-poster--circle {
+  border-radius: 50%;
+  max-width: 320px;
 }

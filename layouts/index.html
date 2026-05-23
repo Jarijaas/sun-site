@@ -1,0 +1,200 @@
+{{ define "main" }}
+
+  {{/* ============ Info / Hero ============ */}}
+  {{ with .Params.info }}
+    {{ if .enable }}
+      <section id="info" class="sun-section sun-section--alt">
+        <div class="container">
+          <div class="row items-center">
+            <div class="md:col-7 mb-8 text-center md:text-left">
+              <p class="sun-hero-tagline">{{ .tagline }}</p>
+              <div class="sun-hero-logo">
+                {{ partial "logo" . }}
+              </div>
+
+              <div class="sun-card mt-10">
+                <h2 class="mb-2">{{ .what.title }}</h2>
+                <div>{{ .what.content | markdownify }}</div>
+              </div>
+
+              <div class="sun-card mt-6">
+                <h2 class="mb-2">{{ .why.title }}</h2>
+                <div>{{ .why.content | markdownify }}</div>
+              </div>
+
+              <div class="sun-card mt-6">
+                <h2 class="mb-2">{{ .when.title }}</h2>
+                <div>{{ .when.content | markdownify }}</div>
+              </div>
+            </div>
+
+            {{ with .poster }}
+              <div class="md:col-5 mb-8 text-center">
+                <img src="{{ . | relURL }}" alt="SUN Kasvutarina" class="sun-poster sun-poster--circle mx-auto" />
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+  {{/* ============ Ohjelma ============ */}}
+  {{ with .Params.ohjelma }}
+    {{ if .enable }}
+      <section id="ohjelma" class="sun-section">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="mb-6">{{ .title }}</h2>
+            <div class="sun-card mx-auto" style="max-width: 720px;">
+              <p class="text-lg">{{ .placeholder }}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+  {{/* ============ Liput ============ */}}
+  {{ with .Params.liput }}
+    {{ if .enable }}
+      <section id="liput" class="sun-section sun-section--alt">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="mb-4">{{ .title }}</h2>
+            <p class="text-lg mb-8">{{ .intro }}</p>
+            {{ with .cta }}
+              <a class="btn btn-primary" href="{{ .link }}"
+                {{ if strings.HasPrefix .link "http" }}target="_blank" rel="noopener"{{ end }}>
+                {{ .label }}
+              </a>
+            {{ end }}
+            {{ with .note }}
+              <p class="mt-6 text-sm" style="opacity: 0.85;">{{ . | markdownify }}</p>
+            {{ end }}
+            {{/*
+              Eventilla iframe embed placeholder – uncomment and paste the
+              registration URL when available:
+
+              <div class="mt-8">
+                <iframe src="https://www.eventilla.com/event/XXXX"
+                  width="100%" height="800" style="border:0; border-radius:1rem; background:#fffce9;"
+                  loading="lazy"></iframe>
+              </div>
+            */}}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+  {{/* ============ Kumppanit ============ */}}
+  {{ with .Params.kumppanit }}
+    {{ if .enable }}
+      <section id="kumppanit" class="sun-section">
+        <div class="container">
+          <div class="text-center mb-10">
+            <h2 class="mb-4">{{ .title }}</h2>
+            <p>{{ .intro }}</p>
+          </div>
+
+          {{ with .main_partner }}
+            {{ if .name }}
+              <div class="text-center mb-10">
+                <a href="{{ .link | default "#" }}" {{ if strings.HasPrefix (.link | default "") "http" }}target="_blank" rel="noopener"{{ end }}>
+                  <img src="{{ .logo | relURL }}" alt="{{ .name }}" style="max-width: 320px; margin: 0 auto;" />
+                </a>
+              </div>
+            {{ end }}
+          {{ end }}
+
+          {{ with .partners }}
+            <div class="sun-partner-grid">
+              {{ range . }}
+                <div class="sun-card flex items-center justify-center" style="padding: 1rem; min-height: 120px;">
+                  <a href="{{ .link | default "#" }}" {{ if strings.HasPrefix (.link | default "") "http" }}target="_blank" rel="noopener"{{ end }}>
+                    <img src="{{ .logo | relURL }}" alt="{{ .name }}" style="max-height: 80px; max-width: 100%;" />
+                  </a>
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+  {{/* ============ Puhujat ============ */}}
+  {{ with .Params.puhujat }}
+    {{ if .enable }}
+      <section id="puhujat" class="sun-section sun-section--alt">
+        <div class="container">
+          <div class="text-center mb-10">
+            <h2 class="mb-4">{{ .title }}</h2>
+            <p class="text-lg">{{ .intro }}</p>
+          </div>
+
+          <div class="sun-speaker-grid">
+            {{ $n := .placeholders | default 3 }}
+            {{ range seq $n }}
+              <div class="sun-speaker-card">
+                <div class="sun-speaker-card__placeholder"></div>
+                <h4 class="mb-1">Tulossa pian</h4>
+                <p style="opacity: 0.7;">Puhuja {{ . }}</p>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+  {{/* ============ Yhteystiedot ============ */}}
+  {{ with .Params.yhteystiedot }}
+    {{ if .enable }}
+      <section id="yhteystiedot" class="sun-section">
+        <div class="container">
+          <div class="text-center mb-10">
+            <h2>{{ .title }}</h2>
+          </div>
+
+          <div class="row items-start">
+            {{ with .location }}
+              <div class="md:col-6 mb-8">
+                <div class="sun-card">
+                  <h3 class="mb-2">{{ .name }}</h3>
+                  <p class="mb-3"><strong>{{ .address }}</strong></p>
+                  <p>{{ .description }}</p>
+                  {{ with .image }}
+                    <img src="{{ . | relURL }}" alt="{{ $.Params.yhteystiedot.location.name }}" class="sun-poster mt-4" />
+                  {{ end }}
+                </div>
+              </div>
+            {{ end }}
+
+            <div class="md:col-6 mb-8">
+              {{ with .organizers }}
+                <div class="sun-card mb-6">
+                  <h3 class="mb-3">{{ .title }}</h3>
+                  <ul style="list-style: disc; padding-left: 1.25rem;">
+                    {{ range .items }}
+                      <li class="mb-1">{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+
+              {{ with .contact }}
+                <div class="sun-card text-center">
+                  <h3 class="mb-3">{{ .label }}</h3>
+                  <a class="btn btn-primary" href="mailto:{{ .email }}">{{ .email }}</a>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+{{ end }}
