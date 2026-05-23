@@ -1,46 +1,77 @@
 ---
-# Banner
-banner:
-  title: "ALL VIBES OK"
-  content: ""
-  image: "/images/vibes-leima.png"
-  button:
-    enable: true
-    label: "Avaa passi"
-    # link: "https://example.org"
-    link: "javascript:alert('Passi työn alla!')"
+title: "SUN Kasvutarina"
+description: "Syksyn aurinkoisin tapahtuma 24.9.2026 Biitsiareenalla, Oulussa."
 
-# Features
-features:
-  - title: "Mitä on vibes?"
-    image: "/images/vibes-leima.png"
-    content: "Oulun Tervaporvarien Nuorkauppakamarin VIBEs-projektin tavoite on edistää nuorten mielenterveyttä ja hyvinvointia Oulun alueella. Se on vastalause ’’good vibes only’’ -ideologialle, koska kun
-keskustellaan mielenterveydestä on otettava huomioon, että kaikki
-erilaiset tunteet ovat sallittuja ja niistä tulee pystyä puhumaan
-avoimesti. Erilaisiin viboihin voi auttaa eri toimet - johonkin liikunta,
-toiseen kulttuuri ja joskus keho vaatii vain rauhoittumista ja itsensä
-hemmottelua. Tämän VIBEs haluaa Oulun seudun nuorille mahdollistaa – täysin ilmaiseksi."
-    #bulletpoints:
-    #  - "10+ Pre-build pages"
-    #  - "95+ Google Pagespeed Score"
-    #  - "Build with Hugo and TailwindCSS for easy and customizable styling"
-    #  - "Fully responsive on all devices"
-    #  - "SEO-optimized for better search engine rankings"
-    #  - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: true
-      label: "Lue lisää"
-      link: "/about"
+# ---------- Info ----------
+info:
+  enable: true
+  tagline: "Syksyn aurinkoisin tapahtuma"
+  poster: "/images/sun-tarra.png"
+  what:
+    title: "Mikä SUN on?"
+    content: |
+      SUN Kasvutarina on inspiroivien menestystarinoiden ja merkityksellisten kohtaamisten tapahtuma.
+      Tule verkostoitumaan tavalla, jota et ole ennen kokenut – aurinkoisessa, rennossa tunnelmassa.
+  why:
+    title: "Miksi tapahtuma järjestetään?"
+    content: |
+      Haluamme tuoda yhteen oululaisia kasvajia, yrittäjiä ja tekijöitä jakamaan tarinoita
+      siitä, mikä todella kantaa eteenpäin – ja sytyttää uusia ideoita ja kontakteja.
+  when:
+    title: "Milloin & missä?"
+    content: |
+      **Torstaina 24.9.2026** &mdash; **Biitsiareena, Oulu**
 
-  - title: "Tule mukaan vibesiin"
-    image: "/images/background-smiles.png"
-    content: "VIBEs tarjoaa yhteistyökumppaneille mahdollisuuden näkyvään ja merkitykselliseen vastuullisuustyöhön. Yhteistyössä autamme nuoria voimaan paremmin ja samalla vahvistamme yritysten brändiä. VIBEs tarjoaa yrityksille valmiin ja helpon konseptin, jonka kautta tehdään aidosti hyvää ja autetaan nuoria löytämään omat tapansa voida paremmin."
-    #bulletpoints:
-    #  - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-    #  - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-    #  - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
-    button:
-      enable: true
-      label: "Lue lisää"
-      link: "/yrityksille"
+# ---------- Ohjelma ----------
+ohjelma:
+  enable: true
+  title: "Ohjelma"
+  placeholder: "Ohjelma julkaistaan myöhemmin. Pysy kuulolla!"
+
+# ---------- Liput ----------
+liput:
+  enable: true
+  title: "Liput"
+  intro: "Tervetuloa mukaan – varmista paikkasi nyt."
+  cta:
+    label: "Ilmoittaudu!"
+    link: "#"
+  note: "Rekisteröityminen Eventillan kautta. Lomake-embed lisätään pian."
+
+# ---------- Kumppanit (commented out until partners confirmed) ----------
+kumppanit:
+  enable: false
+  title: "Yhteistyökumppanit"
+  intro: "Tapahtuman mahdollistavat:"
+  main_partner:
+    name: ""
+    logo: ""
+    link: ""
+  partners: []
+
+# ---------- Puhujat ----------
+puhujat:
+  enable: true
+  title: "Puhujat"
+  intro: "Puhujat julkistetaan lähempänä tapahtumaa."
+  placeholders: 3
+
+# ---------- Yhteystiedot ----------
+yhteystiedot:
+  enable: true
+  title: "Yhteystiedot"
+  location:
+    name: "Biitsiareena"
+    address: "Oulu"
+    description: "Tapahtumapaikkana toimii Biitsiareena – Oulun rento rantatunnelma siirtyy sisätiloihin."
+    image: "/images/sun-poster-tagline.png"
+  organizers:
+    title: "Järjestäjät"
+    items:
+      - "JCI Oulun Tervaporvarit (Oulun Tervaporvarien nuorkauppakamari)"
+      - "Terwasenaatti"
+      - "Revontuliryhmä ry."
+  contact:
+    label: "Ota yhteyttä!"
+    email: "events@jciouluntervaporvarit.fi"
 ---

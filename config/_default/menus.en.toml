@@ -2,75 +2,53 @@
 
 # main menu
 [[main]]
-name = "Etusivu"
-url = "/"
+name = "Info"
+url = "/#info"
 weight = 1
 
 [[main]]
-name = "Yrityksille"
-url = "/yrityksille"
+name = "Ohjelma"
+url = "/#ohjelma"
 weight = 2
 
-#[[main]]
-#name = "Vibes-passi"
-#url = "/elements"
-#weight = 3
+[[main]]
+name = "Liput"
+url = "/#liput"
+weight = 3
 
 [[main]]
-name = "Yhteistyökumppanit"
+name = "Kumppanit"
 url = "/#kumppanit"
 weight = 4
 
 [[main]]
-name = "Meistä"
-url = "/meistä"
+name = "Puhujat"
+url = "/#puhujat"
 weight = 5
 
-#[[main]]
-#name = "Yhteystiedot"
-#url = "/yhteystiedot"
-#weight = 5
-
-#[[main]]
-#parent = "Pages"
-#name = "Blog"
-#url = "/blog"
-
-#[[main]]
-#parent = "Pages"
-#name = "Contact"
-#url = "/contact"
-
-#[[main]]
-#parent = "Pages"
-#name = "Authors"
-#url = "/authors"
-
-#[[main]]
-#parent = "Pages"
-#name = "Categories"
-#url = "/categories"
-
-#[[main]]
-#parent = "Pages"
-#name = "404 Page"
-#url = "/404"
+[[main]]
+name = "Yhteystiedot"
+url = "/#yhteystiedot"
+weight = 6
 
 
 # footer menu
-#[[footer]]
-#name = "Mikä on VIBEs?"
-#url = "/tietoa"
-#weight = 1
-#[[footer]]
-#name = "VIBEs-passi"
-#url = "/passi"
-#weight = 2
 [[footer]]
-name = "Yhteistyökumppanit"
-url = "/#kummpanit"
+name = "Info"
+url = "/#info"
+weight = 1
+
+[[footer]]
+name = "Ohjelma"
+url = "/#ohjelma"
 weight = 2
+
 [[footer]]
-name = "Ota yhteyttä"
-url = "/contact"
+name = "Liput"
+url = "/#liput"
 weight = 3
+
+[[footer]]
+name = "Yhteystiedot"
+url = "/#yhteystiedot"
+weight = 4
