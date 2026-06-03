@@ -1,9 +1,6 @@
 {{/*
-  SUN Kasvutarina text logo. Overrides the images-module logo partial.
-  Pure text + CSS so the logo scales, prints, and adapts to dark mode without
-  a separate image asset.
+  SUN Kasvutarina logo. Overrides the images-module logo partial.
+  Uses the brand logo image (includes tagline, SUN wordmark, kasvutarina, rays).
 */}}
-<span class="sun-logo" aria-label="SUN Kasvutarina">
-  <span class="sun-logo__sun" aria-hidden="true">SUN</span>
-  <span class="sun-logo__kasvutarina" aria-hidden="true">kasvutarina</span>
-</span>
+{{ $logo := resources.Get "images/sun-logo.jpg" }}
+<img class="sun-logo-img" src="{{ $logo.RelPermalink }}" alt="SUN Kasvutarina – Syksyn aurinkoisin tapahtuma" />
