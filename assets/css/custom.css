@@ -95,59 +95,25 @@ body {
 }
 
 /* ----- Logo (SUN + kasvutarina) ----- */
-.sun-logo {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1;
-  text-decoration: none;
+.sun-logo-img {
+  display: block;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  /* Default (navbar/footer) size */
+  max-height: 56px;
+  mix-blend-mode: multiply; /* drops the white JPG background onto colored sections */
 }
 
-.sun-logo__sun {
-  font-family: "Alfa Slab One", serif;
-  font-size: 2.4rem;
-  color: var(--sun-logo-sun);
-  letter-spacing: 0.05em;
-  /* Thick "Solero" shadow per brand guide */
-  text-shadow:
-    -2px -2px 0 var(--sun-text-bg),
-     2px -2px 0 var(--sun-text-bg),
-    -2px  2px 0 var(--sun-text-bg),
-     2px  2px 0 var(--sun-text-bg),
-     0    4px 6px rgba(0, 0, 0, 0.18);
+/* Hero version: large, centered */
+.sun-hero-logo {
+  display: flex;
+  justify-content: center;
 }
 
-.sun-logo__kasvutarina {
-  font-family: "Caveat Brush", "Permanent Marker", cursive;
-  font-size: 1.2rem;
-  color: var(--sun-text);
-  margin-top: -0.15em;
-  transform: rotate(-3deg);
-}
-
-/* Hero version: bigger, centered */
-.sun-hero-logo .sun-logo__sun {
-  font-size: clamp(4rem, 12vw, 8rem);
-  text-shadow:
-    -4px -4px 0 var(--sun-text-bg),
-     4px -4px 0 var(--sun-text-bg),
-    -4px  4px 0 var(--sun-text-bg),
-     4px  4px 0 var(--sun-text-bg),
-     0    8px 12px rgba(0, 0, 0, 0.22);
-}
-
-.sun-hero-logo .sun-logo__kasvutarina {
-  font-size: clamp(2rem, 6vw, 3.5rem);
-  margin-top: -0.1em;
-}
-
-.sun-hero-tagline {
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--sun-text);
-  margin-bottom: 0.5rem;
+.sun-hero-logo .sun-logo-img {
+  max-height: none;
+  width: clamp(260px, 70%, 520px);
 }
 
 /* ----- Buttons ----- */
