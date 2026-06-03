@@ -43,11 +43,19 @@
     {{ if .enable }}
       <section id="ohjelma" class="sun-section">
         <div class="container">
-          <div class="sun-card text-center">
-            <h2 class="mb-6">{{ .title }}</h2>
-            <div class="mx-auto" style="max-width: 720px;">
-              <p class="text-lg">{{ .placeholder }}</p>
-            </div>
+          <div class="sun-card sun-schedule mx-auto" style="max-width: 760px;">
+            <h2 class="text-center mb-6">{{ .title }}</h2>
+            <ol class="sun-schedule__list">
+              {{ range .items }}
+                <li class="sun-schedule__row{{ if .highlight }} sun-schedule__row--highlight{{ end }}">
+                  <span class="sun-schedule__time">{{ .time }}</span>
+                  <span class="sun-schedule__title">{{ .title | safeHTML }}</span>
+                </li>
+              {{ end }}
+            </ol>
+            {{ with .note }}
+              <p class="sun-schedule__note">{{ . }}</p>
+            {{ end }}
           </div>
         </div>
       </section>

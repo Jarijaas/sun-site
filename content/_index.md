@@ -26,7 +26,27 @@ info:
 ohjelma:
   enable: true
   title: "Ohjelma"
-  placeholder: "Ohjelma julkaistaan myöhemmin. Pysy kuulolla!"
+  items:
+    - time: "15:00 – 15:15"
+      title: "Tervetuloa SUN Kasvutarinaan!"
+    - time: "15:15 – 16:00"
+      title: "Kasvutarina-puheenvuorot"
+    - time: "16:05 – 16:30"
+      title: "Puhujien meet&greet, miniworkshopit"
+    - time: "16:30 – 16:45"
+      title: "Tauko ja vapaata verkostoitumista"
+    - time: "16:45 – 17:30"
+      title: "Kasvutarina-puheenvuorot"
+    - time: "17:35 – 18:00"
+      title: "Puhujien meet&greet, miniworkshopit"
+    - time: "18:00 – 18:30"
+      title: "Fasilitoitu verkostoituminen"
+    - time: "18:30 – 18:45"
+      title: "Vuoden valovoimaisin -palkinnon jakaminen"
+    - time: "18:45 – 21:00"
+      title: "Beach party: Ruokaa, juomaa ja tanssia hiekalla!"
+      highlight: true
+  note: "*Pidätämme oikeuden muutoksiin"
 
 # ---------- Liput ----------
 liput:
